@@ -38,8 +38,10 @@ python -m venv venv
 .\venv\Scripts\activate
 # Linux/Mac
 source venv/bin/activate
+
 3. Install Python dependencies
 pip install -r requirements.txt
+
 4. Configure PostgreSQL database
 Create database and user (adjust names/passwords as needed):
 CREATE DATABASE humatrace_db;
