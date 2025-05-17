@@ -115,13 +115,21 @@ Confirm network/firewall settings
 Project Structure
 /humatrace-backend
 ├── app.py                # Main Flask app initialization
+
 ├── extensions.py         # Database and extensions initialization (SQLAlchemy)
+
 ├── routes/               # Folder containing route blueprints for entities
+
 │   ├── patient.py
+
 │   ├── appointment.py
+
 │   ├── diagnosis.py
+
 │   └── ... 
+
 ├── requirements.txt      # Python dependencies
+
 └── README.md             # This file
 
 Dependencies
