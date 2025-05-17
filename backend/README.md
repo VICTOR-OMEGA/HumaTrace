@@ -39,8 +39,10 @@ python -m venv venv
 # Linux/Mac
 source venv/bin/activate
 
+
 3. Install Python dependencies
 pip install -r requirements.txt
+
 
 4. Configure PostgreSQL database
 Create database and user (adjust names/passwords as needed):
@@ -61,6 +63,7 @@ python app.py
 
 By default, the server runs on http://localhost:5000.
 
+
 API Endpoints
 Base URL: http://localhost:5000
 
@@ -70,6 +73,7 @@ appointment_bp	/appointment	GET /, POST /	Manage appointments
 diagnosis_bp	/diagnosis	GET /, POST /	Manage diagnoses
 medication_bp	/medication	GET /, POST /	Manage medication info
 .....
+
 
 Usage Example
 Create a new patient
@@ -86,6 +90,7 @@ Expected response:
   "message": "Patient created",
   "id": "generated-uuid"
 }
+
 
 Debugging & Common Issues
 New patient not showing in database?
@@ -112,7 +117,9 @@ Check user credentials and permissions
 
 Confirm network/firewall settings
 
+
 Project Structure
+
 /humatrace-backend
 ├── app.py                # Main Flask app initialization
 
@@ -132,7 +139,9 @@ Project Structure
 
 └── README.md             # This file
 
+
 Dependencies
+
 Flask
 
 Flask-SQLAlchemy
@@ -143,7 +152,9 @@ psycopg2-binary
 
 SQLAlchemy
 
+
 Future Improvements
+
 Add authentication and authorization
 
 Input validation with Marshmallow or Pydantic
