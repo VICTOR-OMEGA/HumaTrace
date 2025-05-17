@@ -1,0 +1,30 @@
+# Python virtual environment
+.venv/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables
+.env
+
+# VSCode settings folder (if using VSCode)
+.vscode/
+
+# Node modules (if frontend uses Node.js)
+frontend/node_modules/
+
+# Python backend
+/backend/__pycache__/
+/backend/.venv/
+
+# Node modules and build files for frontend
+/frontend/node_modules/
+/frontend/dist/
+
+# Vite lock files (optional)
+bun.lockb
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
